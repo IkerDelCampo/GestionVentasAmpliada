@@ -37,7 +37,7 @@ public class DispositivosEntrada {
     //MOSTRAR
     @Override
     public String toString() {
-        return "DispositivosEntrada{" + "tipoEntrada=" + tipoEntrada + ", marca=" + marca + '}';
+        return  "tipoEntrada=" + tipoEntrada + ", marca=" + marca;
     }
     
     

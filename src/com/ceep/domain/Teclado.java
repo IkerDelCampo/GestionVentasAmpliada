@@ -22,7 +22,7 @@ public class Teclado extends DispositivosEntrada{
 
     @Override
     public String toString() {
-        return "Teclado{" + "idTeclado=" + idTeclado + '}';
+        return "Teclado{" + "idTeclado=" + idTeclado + " " + super.toString()+'}';
     }
 
     
