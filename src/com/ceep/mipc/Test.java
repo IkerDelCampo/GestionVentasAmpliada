@@ -22,6 +22,7 @@ public class Test {
         Computador C4 = new Computador("PC4", M1, T1, R1);
         Computador C5 = new Computador("PC5", M1, T1, R1); 
         Computador C6 = new Computador("PC6", M1, T1, R1);
+        Computador C7 = new Computador("PC7", M1, T1, R1);
         Orden O1 = new Orden();
         //Agregando los pcs
         System.out.println("Agregamos PCs");
@@ -31,6 +32,7 @@ public class Test {
         O1.agregarComputadora(C4);
         O1.agregarComputadora(C5);
         O1.agregarComputadora(C6);
+        O1.agregarComputadora(C7);
         //Lo mostramos
         System.out.println("Mostramos el contenido de la Orden");
         O1.mostarOrden();
