@@ -34,7 +34,7 @@ public class Test {
         O1.agregarComputadora(C6);
         O1.agregarComputadora(C7);
         //Lo mostramos
-        System.out.println("Mostramos el contenido de la Orden");
+        System.out.println("\nMostramos el contenido de la Orden");
         O1.mostarOrden();
     }
 }

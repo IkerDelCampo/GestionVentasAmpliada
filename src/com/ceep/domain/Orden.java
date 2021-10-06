@@ -27,7 +27,7 @@ public class Orden {
         if(contadorComputadoras < maxComputadoras){
             System.out.println("Añadido PC "+(contadorComputadoras+1));
             computadoras[contadorComputadoras++] = computadora;//no creo entender esto del todo bien 
-        }else{System.out.println("Alcanzado el número maximo de computadoras: [MAX_5] PC ["+(contadorComputadoras+1)+"] NO AÑADIDO");}
+        }else{System.out.println("Alcanzado el número maximo de computadoras: [MAX_5] PC ["+(contadorComputadoras+1)+"] y posteriores NO AÑADIDOS");}
     }
     //MOSTAR
     public void mostarOrden(){
@@ -37,8 +37,9 @@ public class Orden {
             System.out.println("El Monitor es ["+(i+1)+"] es ->"+computadoras[i].getMonitor());
             System.out.println("El Raton es ["+(i+1)+"] es ->"+computadoras[i].getRaton());
             System.out.println("El Teclado es ["+(i+1)+"] es ->"+computadoras[i].getTeclado());
+            System.out.println("");
         }
-        System.out.println("Gracias por usar la aplicación");
+        System.out.println("\tGracias por usar la aplicación");
     }
     
 }
